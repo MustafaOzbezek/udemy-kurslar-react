@@ -1,0 +1,92 @@
+.course-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* KART */
+.course {
+    width: 300px;
+    min-height: 420px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* RESİM */
+.course-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* BAŞLIK */
+.course-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* AÇIKLAMA */
+.course-desc {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+/* FİYAT */
+.course-price {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin: 10px 0;
+}
+
+/* LİNK */
+.course-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #4b0082;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.course {
+    transition: 0.3s;
+}
+
+.course:hover {
+    transform: translateY(-5px);
+}
+
+.course-link a {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #4b4bbd;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.course-link a:hover {
+    background-color: #3535a5;
+}
